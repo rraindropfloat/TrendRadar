@@ -32,6 +32,28 @@ app:
 platforms:
   enabled: true                         # 是否启用热榜平台抓取
   sources:
+    - id: "ithome"
+      name: "IT之家"
+    - id: "juejin"
+      name: "掘金"
+    - id: "github"
+      name: "GitHub"
+    - id: "hackernews"
+      name: "Hacker News"
+    - id: "solidot"
+      name: "Solidot"
+    - id: "v2ex"
+      name: "V2EX"
+    - id: "nowcoder"
+      name: "牛客网"
+    - id: "pcbeta"
+      name: "远景论坛"
+    - id: "sspai"
+      name: "少数派"
+    - id: "producthunt"
+      name: "ProductHunt"
+
+
     - id: "toutiao"
       name: "今日头条"
     - id: "baidu"
@@ -54,6 +76,10 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
+    - id: "hupu"
+      name: "虎扑"
+
+ 
 
 
 
